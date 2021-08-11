@@ -1,3 +1,9 @@
+<p align="right">
+  <a href="https://t.me/MadL0rd">
+    <img src="https://img.shields.io/badge/telegram-MadL0rd-gray.svg?logo=telegram&colorB=2CA4DE&style=for-the-badge"/>
+  </a>
+</p>
+
 ![](./AntonTekutov.png)
 
 <p align="center">
@@ -6,8 +12,4 @@
   <img width="48.9%" src="https://github-readme-streak-stats.herokuapp.com?user=MadL0rd&hide_border=true&background=000000&sideNums=FFFFFF&currStreakNum=FFFFFF&stroke=FFFFFF&ring=FFFFFF6E&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF97&dates=FFFFFF5F"/>
 </p>
 
-<p align="right">
-  <a href="https://t.me/MadL0rd">
-    <img src="https://img.shields.io/badge/telegram-MadL0rd-gray.svg?logo=telegram&colorB=2CA4DE&style=for-the-badge"/>
-  </a>
-</p>
+
