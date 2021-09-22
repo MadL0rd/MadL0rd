@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not Found</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <style>
+    .error-page {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      padding-top: 100px;
+    }
+    .error-page h1 {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 59px;
+      border: 1px dashed #E6E6E6;
+      padding: 25px 20px 20px 20px;
+      width: 110px;
+      height: 110px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .error-page h1 + p {
+      margin: 25px auto 15px;
+      font-weight: 500;
+      font-size: 22px;
+    }
+    .error-page p {
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    .error-page a {
+      text-decoration: none;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #944dff;
+      color: #fff;
+      padding: 15px 20px;
+      border-radius: 8px;
+    }
+    .error-page a:hover {
+      color: #fff;
+      background-color: #8534ff;
+      text-decoration: none;
+    }
+    @media(max-width: 647px) {
+      .error-page {
+        padding-top: 0;
+        justify-content: center;
+      }
+      .error-page a {
+        width: 80%;
+        margin-top: 30%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page">
+    <h1>404</h1>
+    <p>Error</p>
+    <p>Not Found</p>
+  </div>
+</body>
+</html>
