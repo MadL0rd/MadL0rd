@@ -18,7 +18,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p, span, div, button, input {
   color: #fff;
-  font-family: "Segoe UI", "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -146,20 +145,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-.slide .slide-inner button {
-  border: none;
-  background: #56CCF2;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2F80ED, #56CCF2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 10px 15px;
-  border-radius: 3px;
-  margin: 40px auto;
-  text-transform: uppercase;
-  transition: all 0.2s;
-}
+
 .slide .slide-inner.slide-video:before {
   content: "";
   position: absolute;
@@ -866,4 +852,3 @@ button {
   z-index: 9;
 }
 
-/*# sourceMappingURL=style.css.map */

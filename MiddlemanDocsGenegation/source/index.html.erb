@@ -1,24 +1,13 @@
 ---
 title: Tekutov Anton iOS-Developer
 ---
-
-<!DOCTYPE html>
-<html>
-
 <head>
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- Matomo Tag Manager -->
-<script>
-  var _mtm = _mtm || [];
-  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://matomo.storyland.mobi/js/container_mfGfLwSb.js'; s.parentNode.insertBefore(g,s);
-  </script>
-  <!-- End Matomo Tag Manager -->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -29,29 +18,9 @@ title: Tekutov Anton iOS-Developer
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/intlTelInput.min.css">
-  <style>
-     body:before{
-        position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
-        content:url('./img/canva.png'); 
-      }
-      body {
-        height: 100%;
-      }
-      @media(max-width: 647px) {
-        .slider {
-          width: 100vw;
-          transition: none!important;
-        }
-        .slide {
-          height: 100vh;
-          transition: none!important;
-        }
-      }
-  </style>
 </head>
 
 <body>
-  
     <!-- start | swype-tip-block  -->
     <div class="swype-tip" style="display: none;">
       <div>
@@ -96,31 +65,29 @@ title: Tekutov Anton iOS-Developer
     <div class="slide slick-slide">
         <div class="slide-inner">
             <div class="slide-content">
-            <img class="canva" src="./img/canva.png" alt="canvas background image" />
-            <img data-lazy="./img/ending.jpg" alt="slide background image" />
-            <div class="btns-container"><div class="inner-next"></div><div class="inner-prev"></div><div class="iplay"></div>
-                <a   class="" href="<%= data.site.tgLink %>"
-                    
-                    style="background: linear-gradient(to right, #2F80ED, #56CCF2);
-                    text-align: center;
-                    padding: 0;
-                    min-height: 5px;
-                    position: absolute;
-                    right:30%!important;
-                    height: 70px!important;
-                    left:30%!important;">
-                    Telegram
-                  </a>
+              <img class="canva" src="./img/canva.png" alt="canvas background image" />
+              <img data-lazy="./img/ending.jpg" alt="slide background image" />
+              <div class="btns-container"><div class="inner-next"></div>
+                <%= partial 'partials/telegramButton' %>
               </div>
+              <img src="./img/tap.gif" class="slide-top fadeout"
+              style="
+              top: 0;
+              right: -35%;
+              height: 150px;
+              width: fit-content;
+              pointer-events: none;"
+              />
+            </div>
         </div>
-      </div>
+        
     </div>
 
 <!-- next -->
 </div>
   <div class="progressBarContainer">
     <% data.site.video.each do |video| %>
-        <div><span class="progressBar"></span></div>
+        <div><span data-slick-index="5" class="progressBar"></span></div>
     <% end %>
     <div><span data-slick-index="5" class="progressBar"></span></div>
 <!-- progressbar -->
@@ -1052,12 +1019,6 @@ title: Tekutov Anton iOS-Developer
                 <li class="first-li">
                   <a href="${widgetBtnLink}">
                     <button style="width: 99%">${widgetBtnTitle}</button>
-                  </a>
-                </li>
-                <li class="info-card-more">
-                  <a href="#">
-                    <img src="https://storyland-common-storage.storage.yandexcloud.net/b93ccfce-ef30-4fa8-b70b-91af36df8823.svg">
-                    <span>Подробнее</span>
                   </a>
                 </li>
               </ul>

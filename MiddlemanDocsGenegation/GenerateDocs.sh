@@ -22,7 +22,7 @@ cd `dirname "$0"`
 middleman build --verbose
 
 # Files path fix for Github pages
-replaceInFiles "/stylesheets/" "./stylesheets/" "../docs"
-replaceInFiles "/javascripts/" "./javascripts/" "../docs"
+replaceInFiles "\"/stylesheets/" "\"./stylesheets/" "../docs"
+replaceInFiles "\"/javascripts/" "\"./javascripts/" "../docs"
 
 colorPrint "\t🎉  Congradulations! 🎉\nDocuments was successfully generated!"
