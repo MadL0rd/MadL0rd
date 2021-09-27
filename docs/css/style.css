@@ -132,8 +132,7 @@ button {
 }
 .slide .slide-inner a {
   border: none;
-  background: #56CCF2;
-  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  height: 65px;
   padding: 10px 15px;
   border-radius: 3px;
   margin: 0 auto;
