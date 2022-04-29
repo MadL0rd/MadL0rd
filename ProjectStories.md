@@ -1,4 +1,36 @@
 
+# NcraFTsman
+[![](https://img.shields.io/badge/Main_page-NcraFTsman-gray?&colorA=BD56ED&colorB=000000&style=for-the-badge)](https://www.ncraftsman.com/)
+
+I am the founder of a startup [**NcraFTsman**](https://www.ncraftsman.com/).
+My team and I are working on a full-cycle ecosystem for creating and promoting NFT collections. It includes mobile and web apps as well as tools for interacting with the audience through instant messengers. Below you can see the apps for the App Store, developed by me.
+
+## NFT collections generator
+[![](https://img.shields.io/badge/Editor-NcraFTsman-gray?&colorA=BD56ED&colorB=000000&style=for-the-badge)](https://editor.ncraftsman.com/)
+
+Open beta of our NFT-collection generator. Creates NFT-collection by few clicks
+
+---
+
+## NaFThalene
+[![](https://img.shields.io/badge/App_Store-NaFThalene-gray?logo=App%20Store&colorA=F3F3F3&colorB=&style=for-the-badge)](https://apps.apple.com/ru/app/nafthalene/id1572170903)
+
+The **NaFTalene** App allows professional artists to create for free NFT from a portfolio and put it up for sale in one button. Project from DEFINITION hackathon   
+Integrations - **Dribbble API**  
+Architectural pattern - **MVVM + Coordinator**
+
+---
+
+## WhyNFT
+
+![](https://img.shields.io/badge/App_Store-Beta_Test-gray?logo=App%20Store&colorA=F3F3F3&style=for-the-badge)
+
+**WhyNFT** allow regular persons to create NFT from Instagram publications completely free. NFT will be placed on the Rarible NFT marketplace    
+Integrations - **Instagram Basic Display API**  
+Architectural pattern - **MVVM + Coordinator**
+
+---
+
 # Pet projects
 
 ## Awesome avatar for Clubhouse
@@ -47,6 +79,13 @@ Architectural pattern - **VIPER**
 
 # Commercial development
 
+## SmartAirkey
+[![](https://img.shields.io/badge/App_Store-SmartAirkey-gray?logo=App%20Store&colorA=F3F3F3&colorB=000000&style=for-the-badge)](https://apps.apple.com/ru/app/smartairkey/id1032832416)
+
+SmartAirkey - service for managing smart locks. Allows you to control smart home devices via Bluetooth 
+
+---
+
 ## Альбомика
 [![](https://img.shields.io/badge/App_Store-Альбомика-gray?logo=App%20Store&colorA=F3F3F3&colorB=000000&style=for-the-badge)](https://apps.apple.com/ru/app/альбомика/id1539031052)
 
@@ -61,21 +100,7 @@ Architectural pattern - **MVVM + Coordinator**
 
 ---
 
-# Why NFT team
-My team and I are working on an ecosystem using NFT. It includes projects ranging from applications for ordinary people to NFT investment packages. Below you can see the apps for the App Store, developed by me. 
+## Healty
+[![](https://img.shields.io/badge/App_Store-Beta_Test-gray?logo=App%20Store&colorA=F3F3F3&style=for-the-badge)](https://testflight.apple.com/join/dO4Rn4Bt)
 
-## ‎NaFThalene
-[![](https://img.shields.io/badge/App_Store-‎NaFThalene-gray?logo=App%20Store&colorA=F3F3F3&colorB=000000&style=for-the-badge)](https://apps.apple.com/ru/app/nafthalene/id1572170903)
-
-The **NaFTalene** App allows professional artists to create for free NFT from a portfolio and put it up for sale in one button. Project from DEFINITION hackathon   
-Integrations - **Dribbble API**  
-Architectural pattern - **MVVM + Coordinator**
-
-## WhyNFT
-
-![](https://img.shields.io/badge/App_Store-Beta_Test-gray?logo=App%20Store&colorA=F3F3F3&style=for-the-badge)
-
-**WhyNFT** allow regular persons to create NFT from Instagram publications completely free. NFT will be placed on the Rarible NFT marketplace    
-Integrations - **Instagram Basic Display API**  
-Architectural pattern - **MVVM + Coordinator**
-
+Application for aggregation of medical services and assistance in maintaining a healthy lifestyle
