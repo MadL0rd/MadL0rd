@@ -104,3 +104,9 @@ Architectural pattern - **MVVM + Coordinator**
 [![](https://img.shields.io/badge/App_Store-Beta_Test-gray?logo=App%20Store&colorA=F3F3F3&style=for-the-badge)](https://testflight.apple.com/join/dO4Rn4Bt)
 
 Application for aggregation of medical services and assistance in maintaining a healthy lifestyle
+
+---
+
+## PhantomVPN
+
+WireGuard iOS VPN client
